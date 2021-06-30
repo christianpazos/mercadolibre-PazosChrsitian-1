@@ -1,0 +1,51 @@
+.create-form {
+    padding: 1rem 1.5rem;
+    display: block;
+    width: 70%;
+    margin: auto ;
+    color: #666;
+}
+
+.form-control .title {
+    margin-top: 1rem;
+ }
+ 
+ .form-control section {
+     display: block;
+
+ }
+
+ .form-control section input {
+    margin-right: 1rem;
+}
+ 
+ .form-control input {
+    background: white;
+    margin-bottom: 1rem;
+ }
+ 
+.control {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    color: #ebebeb;
+}
+
+label.title {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+   }
+
+.radio {
+    margin: 1rem;
+}
+
+button.control {
+    background: #03264C ;
+    margin-bottom: 1rem;
+}

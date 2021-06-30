@@ -1,0 +1,53 @@
+  
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 1.25rem 1.25rem 0.625rem 1.25rem;
+}
+
+#footer-uno {
+    margin-bottom: 3.125rem;
+    display: flex;
+    flex-flow: column wrap;
+    width: 90vw;
+    margin: auto;
+}
+
+#footer-uno i{
+    font-size: 2em;
+    margin-bottom: 0.625rem;
+    color: #03264C;
+}
+
+#footer-uno article h4{
+    margin: 0;
+}
+#footer-uno article p{
+    margin: 0.1875rem;
+}
+#footer-uno article {
+    margin-bottom: 3.125rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#footer-dos {
+    text-align: left;
+}
+
+
+@media screen and (min-width: 1200px) {
+    #footer-uno{
+        display: flex;
+        flex-flow: row wrap;
+        width: 90vw;
+        justify-content: center;
+    }
+    #footer-uno article{
+        display: flex;
+        width: 22vw;
+        
+    }
+    
+}

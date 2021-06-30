@@ -1,0 +1,21 @@
+.create-form {
+    padding: 1rem 1.5rem;
+    display: block;
+    width: 70%;
+    margin:auto ;
+}
+
+.control {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    color: #ebebeb;
+}
+
+button.control {
+    background: #03264C ;
+}

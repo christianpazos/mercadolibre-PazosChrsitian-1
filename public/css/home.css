@@ -1,0 +1,131 @@
+.main1{
+  width: 90%;
+  margin: auto; 
+}
+
+section.galery{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.galery h1{
+  font-weight: 400;
+  color: #666;
+  width: 100%;
+}
+
+article.article img {
+  width: 100%;
+}
+
+article.article{
+  background-color: #FFF;
+  margin-bottom: 0.625rem;
+  padding-bottom: 0.625rem;
+  transition: all 0.4s ease-in-out;
+}
+
+article.article:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.article1{
+  border-top: 0.06rem solid #ebebeb;
+  padding-left: 0.93rem;
+  padding-right: 0.93rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  padding-top: 0.5rem;
+}
+
+.fa-truck{
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  color: #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.truck{
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  
+}
+article.article1:hover .fa-truck{
+  transform: rotate(360deg);
+}
+
+p.precio{
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+p.descuentos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  color: #39b54a; 
+}
+
+p.descripciones{
+  display: none;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #666;
+  margin: 0.9375rem 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+article.article:hover .descripciones{
+  visibility: visible;
+}
+
+
+@media screen and (min-width: 361px) {
+  p.descripciones{
+      display: block;
+  }
+ 
+
+
+@media screen and (min-width: 768px){
+  section.galery{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+  }
+
+  article.article {
+      width: 45%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  article.article {
+      width: 22.5%;
+  }
+  p.precio{
+      width: 50%;
+  }
+  
+  p.descuentos{
+      width: 50%;
+  }
+
+}
+}
