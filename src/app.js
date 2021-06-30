@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 
-app.listen(process.env.Port || 3000 ,  function () {
+app.listen(process.env.PORT || 3000 ,  function () {
     console.log ("servidor en puerto 3000 ");
 
 })
